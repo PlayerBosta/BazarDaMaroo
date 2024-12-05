@@ -1,0 +1,36 @@
+$corFundoBar: rgb(207, 161, 11);
+$corFundo: gray;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.menu{
+    background-color: $corFundoBar;
+    li{
+        display: inline;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
+.grade{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+
+    div{
+        width: 90%;
+        background-color: $corFundo;
+    }
+
+    div.lateral{
+        width: 5%;
+        height: 100vh;
+        background-color: darkblue;
+    }
+}
